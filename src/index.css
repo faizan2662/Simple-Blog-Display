@@ -1,0 +1,23 @@
+body {
+  background: radial-gradient(circle at 12.3% 19.3%, rgb(85, 88, 218) 0%, rgb(95, 209, 249) 100.2%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+  font-size: 46px;
+}
+
+.blog-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 60px;
+}

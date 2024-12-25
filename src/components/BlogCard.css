@@ -1,0 +1,26 @@
+.blog-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #ccc;
+  text-align: left;
+  max-width: 600px;
+  margin: 10px auto;
+  width: 500px;
+  transition: box-shadow 0.1s ease;
+}
+
+.blog-card:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.705);
+}
+
+.blog-card h2 {
+  margin-top: 0;
+  color: #555;
+}
+
+.blog-card p {
+  margin: 5px 0;
+}
